@@ -1,0 +1,44 @@
+[
+  {
+    "ContainingType": "CurrencyExchange.Controllers.ConvertController",
+    "Method": "ConvertCurrencyAsync",
+    "RelativePath": "nbu/Convert",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "CurrencyExchange.Models.ConvertData",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CurrencyExchange.Controllers.MonoController",
+    "Method": "CheckDiferenceBetweenMonoAndNbu",
+    "RelativePath": "rates/Mono",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "currencyCode",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CurrencyExchange.Controllers.MonoUpToDateController",
+    "Method": "FetchDataFromMonoApi",
+    "RelativePath": "rates/MonoUpToDate",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
